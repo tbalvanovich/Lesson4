@@ -2,7 +2,8 @@ package by.balvanovich.lesson4.Task2;
 
 public class Main {
     public static void main(String[] args) {
-        int array[][] = new int[5][];
+        int n = 5;
+        int array[][] = new int[n][];
         for (int i = 0; i < array.length; i++) {
             array[i] = new int[array.length];
         }
